@@ -1,0 +1,80 @@
+" 包管理工具
+Bundle 'gmarik/vundle'
+" 文件树
+Bundle 'scrooloose/nerdtree'
+" 注释
+Bundle 'tomtom/tcomment_vim'
+" ctrlp 文件查找
+Bundle 'kien/ctrlp.vim'
+" 原 zencoding
+Bundle 'mattn/emmet-vim'
+" Powerline
+Bundle 'Lokaltog/vim-powerline'
+" snippet 1
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'honza/vim-snippets'
+Bundle 'garbas/vim-snipmate'
+" snippet 2
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
+" term 颜色主题
+Bundle 'lufeihaidao/vim-term-color'
+" 静态语法检查
+Bundle 'scrooloose/syntastic'
+" vim slim
+Bundle 'slim-template/vim-slim'
+" 使用 %快速跳至匹配的括号标签等
+Bundle 'vim-scripts/matchit.zip'
+" 给查找加索引
+Bundle 'vim-scripts/IndexedSearch'
+" 安装有点麻烦，代码提示与补全
+Bundle 'Valloric/YouCompleteMe'
+" ag 项目内搜索，需要the_silver_searcher
+Bundle 'rking/ag.vim'
+
+
+""""""""""""用的较少的包""""""""""""
+" tag 查看
+Bundle 'majutsushi/tagbar'
+" Extension to ctrlp 列出vim命令
+Bundle 'fisadev/vim-ctrlp-cmdpalette'
+" buffer管理
+Bundle 'fholgado/minibufexpl.vim'
+" 括号高亮
+Bundle 'kien/rainbow_parentheses.vim'
+" tab 管理
+Bundle 'kien/tabman.vim'
+" git 集成工具，没多大用……
+Bundle 'tpope/vim-fugitive'
+Bundle 'motemen/git-vim'
+" 更改包裹的字符串，看起来很好用，用的少
+Bundle 'tpope/vim-surround'
+" 自动闭合
+Bundle 'Townk/vim-autoclose'
+" 同上，输入引号,括号时,自动补全
+Bundle 'Raimondi/delimitMate'
+" python 工具包，代码审查，加断点，查看文档等，做 python 有用
+Bundle 'klen/python-mode'
+" 选择模式快速扩大、缩小范围
+Bundle 'terryma/vim-expand-region'
+" 显示 git diff 信息，在左侧
+Bundle 'airblade/vim-gitgutter'
+" css 着色
+Bundle 'lilydjwg/colorizer'
+" 代码格式化
+Bundle 'godlygeek/tabular'
+" 多光标选择，类似 subl，很有用
+Bundle 'vim-multiple-cursors'
+" pandoc
+Bundle 'vim-pandoc/vim-pandoc'
+" js 语法
+Bundle 'jelera/vim-javascript-syntax'
+" coffeescript 太强大了……lint着色运行编译审查等等
+Bundle 'kchmck/vim-coffee-script'
+" 光标后跳转
+Bundle 'Lokaltog/vim-easymotion'
+" rails 插件
+Bundle 'tpope/vim-rails'
+" yank ring
+Bundle YankRing.vim
