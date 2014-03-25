@@ -1,0 +1,15 @@
+[user]
+	name = Wulfric Wang
+	email = lufeihaidao+code@gmail.com
+[core]
+    editor = vim
+    excludesfile = /home/haidao/.gitignore_global
+[alias]
+    ci = commit -a -v
+    co = checkout
+    st = status
+    br = branch
+    lg = log --graph --pretty=mt:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    throw = reset --hard HEAD
+[color]
+    ui = true
