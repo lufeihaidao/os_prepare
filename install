@@ -1,0 +1,2 @@
+necessary: git tig vim zsh(oh-my-zsh) curl wget python(pip) byobu/tmux
+optional: node ruby(rvm/rbenv) pandoc
