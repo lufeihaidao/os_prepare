@@ -1,2 +1,5 @@
-necessary: git tig vim zsh(oh-my-zsh) curl wget python(pip) byobu/tmux autojump
+necessary: git tig vim zsh(oh-my-zsh) curl wget python(pip) byobu/tmux autojump ag(the_silver_searcher)
+
+mac only: alfred dash
+
 optional: node ruby(rvm/rbenv) pandoc
