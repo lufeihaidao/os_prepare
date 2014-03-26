@@ -6,6 +6,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tomtom/tcomment_vim'
 " ctrlp 文件查找
 Bundle 'kien/ctrlp.vim'
+" Extension to ctrlp 列出vim命令
+Bundle 'fisadev/vim-ctrlp-cmdpalette'
 " 原 zencoding
 Bundle 'mattn/emmet-vim'
 " Powerline
@@ -37,8 +39,6 @@ Bundle 'rking/ag.vim'
 """"""""""""用的较少的包""""""""""""
 " tag 查看
 Bundle 'majutsushi/tagbar'
-" Extension to ctrlp 列出vim命令
-Bundle 'fisadev/vim-ctrlp-cmdpalette'
 " buffer管理
 Bundle 'fholgado/minibufexpl.vim'
 " 括号高亮
