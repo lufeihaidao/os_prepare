@@ -48,7 +48,7 @@ Bundle 'vim-scripts/IndexedSearch'
 " 显示 git diff 信息，在左侧
 Bundle 'airblade/vim-gitgutter'
 " 多光标选择，类似 subl，很有用
-Bundle 'vim-multiple-cursors'
+Bundle 'terryma/vim-multiple-cursors'
 " js 语法
 Bundle 'jelera/vim-javascript-syntax'
 " 光标后跳转
@@ -64,12 +64,14 @@ Bundle 'tpope/vim-surround'
 " 自动闭合
 Bundle 'Raimondi/delimitMate'
 " snippets
-Bundle 'SirVer/ultisnips'
+Bundle 'sirver/ultisnips'
 Bundle 'honza/vim-snippets'
 
 
 " wombat color scheme
 Bundle 'wombat'
+" minibuffer
+" Bundle 'minibufexpl.vim'
 
 " allow plugins by file type
 filetype plugin on
@@ -128,7 +130,8 @@ let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
 
 " ctrlP
-let g:ctrlp_map = ',e'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 nmap ,b :CtrlPBuffer<CR>
 nmap ,f :CtrlPLine<CR>
 nmap ,m :CtrlPMRUFiles<CR>
@@ -152,15 +155,12 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll|swp|pyc|pyo)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
-let g:ctrlp_user_command = {
-  \ 'types': {
-    \ 1: ['.git', 'cd %s && git ls-files'],
-    \ 2: ['.hg', 'hg --cwd %s locate -I .'],
-    \ },
-  \ 'fallback': 'find %s -type f'
-  \ }
 
 " snippets for ultisnips
-let g:UltiSnipsExpandTrigger="<shift-tab>"
+let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" local debug
+" let g:debuggerMiniBufExpl = 1
+let g:debuggerPort = 9001
