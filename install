@@ -9,3 +9,12 @@ sudo apt-get install -y build-essential cmake python-dev
 cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.sh --clang-completer
+
+
+# dotfiles
+git clone git@github.com:lufeihaidao/os_prepare.git
+ln -sb os_prepare/.vimrc .
+ln -sb os_prepare/.zshrc .
+ln -sb os_prepare/.gitconfig .
+ln -sb os_prepare/.gitignore_global .
+ln -sb os_prepare/.pryrc .
