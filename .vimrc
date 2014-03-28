@@ -90,6 +90,7 @@ set ls=2
 set incsearch
 " highlighted search results
 set hlsearch
+map nh :nohl<CR>
 " line numbers
 set nu
 
