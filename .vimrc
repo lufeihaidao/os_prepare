@@ -164,4 +164,3 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " local debug
 " let g:debuggerMiniBufExpl = 1
-let g:debuggerPort = 9001
