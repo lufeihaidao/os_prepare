@@ -3,7 +3,17 @@
 	email = lufeihaidao+code@gmail.com
 [core]
     editor = vim
-    excludesfile = /home/haidao/.gitignore_global
+    excludesfile = /Users/haidao/.gitignore_global
+[merge]
+    tool = extMerge
+[mergetool "extMerge"]
+    cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
+    prompt = false
+[diff]
+    external = extDiff
 [alias]
     ci = commit -a -v
     co = checkout

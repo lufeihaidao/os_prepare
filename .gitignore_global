@@ -39,3 +39,6 @@ Thumbs.db
 # VIM swp files #
 #####################
 *.swp
+# sublime project files #
+#####################
+*.sublime-project
