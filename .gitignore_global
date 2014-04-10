@@ -42,3 +42,4 @@ Thumbs.db
 # sublime project files #
 #####################
 *.sublime-project
+*.sublime-workspace

@@ -3,7 +3,7 @@
 	email = lufeihaidao+code@gmail.com
 [core]
     editor = vim
-    excludesfile = /Users/haidao/.gitignore_global
+    excludesfile = ~/.gitignore_global
 [merge]
     tool = extMerge
 [mergetool "extMerge"]
