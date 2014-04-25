@@ -34,6 +34,8 @@ Bundle 'vim-scripts/IndexedSearch'
 Bundle 'Valloric/YouCompleteMe'
 " ag 项目内搜索，需要the_silver_searcher
 Bundle 'rking/ag.vim'
+" like ctrl shift F in sublime text
+Bundle 'dyng/ctrlsf.vim'
 
 
 """"""""""""用的较少的包""""""""""""
