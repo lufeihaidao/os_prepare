@@ -66,6 +66,10 @@ Bundle 'Raimondi/delimitMate'
 " snippets
 Bundle 'sirver/ultisnips'
 Bundle 'honza/vim-snippets'
+" tag 查看
+Bundle 'majutsushi/tagbar'
+" scrool
+Bundle 'yonchu/accelerated-smooth-scroll'
 
 
 " wombat color scheme
