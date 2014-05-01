@@ -39,6 +39,8 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'lufeihaidao/vim-term-color'
 " ag 项目内搜索，需要the_silver_searcher
 Bundle 'rking/ag.vim'
+" ctrl shift f find with ag
+Bundle 'dyng/ctrlsf.vim'
 " 静态语法检查
 Bundle 'scrooloose/syntastic'
 " 使用 %快速跳至匹配的括号标签等
