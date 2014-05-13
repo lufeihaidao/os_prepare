@@ -70,8 +70,12 @@ Bundle 'sirver/ultisnips'
 Bundle 'honza/vim-snippets'
 " tag 查看
 Bundle 'majutsushi/tagbar'
-" scrool
-Bundle 'yonchu/accelerated-smooth-scroll'
+" slim
+Bundle 'slim-template/vim-slim'
+" coffeescript 太强大了……lint着色运行编译审查等等
+Bundle 'kchmck/vim-coffee-script'
+" rails 插件
+Bundle 'tpope/vim-rails'
 
 
 " wombat color scheme
