@@ -80,12 +80,11 @@ Bundle 'slim-template/vim-slim'
 Bundle 'kchmck/vim-coffee-script'
 " rails 插件
 Bundle 'tpope/vim-rails'
-
+" minibuffer
+Bundle 'fholgado/minibufexpl.vim'
 
 " wombat color scheme
 Bundle 'wombat'
-" minibuffer
-" Bundle 'minibufexpl.vim'
 
 " allow plugins by file type
 filetype plugin on
@@ -175,6 +174,7 @@ let g:ctrlp_custom_ignore = {
 " ctrlp function search
 let g:ctrlp_extensions = ['funky']
 nnoremap <Leader>fu :CtrlPFunky<Cr>
+let g:ctrlp_funky_syntax_highlight = 1
 " PyMatcher for CtrlP
 if !has('python')
   echo 'In order to use pymatcher plugin, you need +python compiled vim'
