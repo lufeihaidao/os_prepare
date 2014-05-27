@@ -4,16 +4,16 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
-[merge]
-    tool = extMerge
-[mergetool "extMerge"]
-    cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
-    keepTemporaries = false
-    trustExitCode = false
-    keepBackup = false
-    prompt = false
-[diff]
-    external = extDiff
+; [merge]
+;     tool = extMerge
+; [mergetool "extMerge"]
+;     cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+;     keepTemporaries = false
+;     trustExitCode = false
+;     keepBackup = false
+;     prompt = false
+; [diff]
+;     external = extDiff
 [alias]
     ci = commit -a -v
     co = checkout
