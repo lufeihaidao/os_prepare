@@ -10,11 +10,14 @@ sudo pacman -S vim the_silver_searcher zsh git-core tig curl wget autojump pytho
 
 # mac os
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)" # refer to the official website
-brew tap phinze/cask
+brew tap caskroom/cask
 brew install brew-cask
 brew update && brew upgrade
 brew cask alfred link
-sudo easy_install pip
+
+brew install autojump cmake git vim macvim the_silver_searcher tig wget zsh rename
+brew cask install aliwangwang atom bartender dash evernote firefox goagentx iterm2 jumpcut kindle mplayerx the-unarchiver google-chrome virtualbox dropbox box-sync xiami vagrant rdm mou p4merge qq skitch sourcetree sequel-pro thunder
+# alfred bartender textexpander sublime cleanapp popclip
 
 # rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
