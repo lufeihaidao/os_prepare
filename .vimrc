@@ -1,5 +1,6 @@
 " no vi-compatible
 set nocompatible
+set textwidth=80
 
 " Setting up Vundle - the vim plugin bundler
 let iCanHazVundle=1
